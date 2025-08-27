@@ -26,9 +26,7 @@
                 $Assignment = $_POST['Assignment'];
                 $Exam = $_POST['Exam'];
                
-                if (is_numeric($Quiz) && is_numeric($Assignment) && is_numeric($Exam) &&
-                    min($Quiz, $Assignment, $Exam) >= 0 && 
-                    max($Quiz, $Assignment, $Exam) <= 100) {
+                if (is_numeric($Quiz) && is_numeric($Assignment) && is_numeric($Exam)) {
                     
                     $Average = ($Quiz * 0.30) + ($Assignment * 0.30) + ($Exam * 0.40);
   
@@ -44,7 +42,7 @@
                         $letterGrade = "F";
                     }
 
-                    echo "Final Grade: " . number_format($Average, 1) . " (Letter Grade: $letterGrade)";
+                    echo "Final Grade: " . number_format($Average, 1) . "<br (Letter Grade: $letterGrade)";
                 }
             }
         ?>
