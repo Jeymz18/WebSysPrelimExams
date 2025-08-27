@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple Calculator</title>
+    <title>GradeCalculator/title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; text-align: center; }
         .calculator { border: 2px solid #ccc; padding: 20px; width: 300px; margin: auto; }
@@ -10,7 +10,7 @@
     </style>
 </head>
 <body>
-    <h1>Simple Calculator</h1>
+    <h1>GradeCalculator</h1>
    
     <div class="calculator">
         <form method="POST">
