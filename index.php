@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>GradeCalculator/title>
+    <title>Simple Calculator</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; text-align: center; }
         .calculator { border: 2px solid #ccc; padding: 20px; width: 300px; margin: auto; }
